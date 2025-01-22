@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    background: lavender;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    max-height: 700px;
+    align-items: center;
+    gap:30px;
+    border: 1px solid purple;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+
+
+#name {
+    font-size: 1.5em;
+}
+
+button {
+    color: white;
+    background-color: purple;
+    border-radius: 15px;
+    border-style: none;
+    height: 30px;
+    width: 80px;
+}
